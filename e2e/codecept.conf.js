@@ -13,7 +13,7 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: process.env.BASE_URL,
+      url:process.env.BASE_URL,
       show: true,
       browser: 'chromium'
     }
